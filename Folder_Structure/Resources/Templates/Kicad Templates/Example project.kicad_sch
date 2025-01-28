@@ -1,0 +1,49 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "Example Project")
+		(date "15 nov 2012")
+		(rev "rev01")
+		(company "coVenture")
+	)
+	(lib_symbols)
+	(text "Muhammad Moiz\n"
+		(exclude_from_sim no)
+		(at 211.328 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26daaf6d-e6b0-4cd7-8cb0-046963eb4f4d")
+	)
+	(text "moizrai765yt@gmail.com\n"
+		(exclude_from_sim no)
+		(at 215.392 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42c038f8-f2ce-474b-b44a-26bca8e7a6ac")
+	)
+	(text "03407610395\n"
+		(exclude_from_sim no)
+		(at 210.312 177.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfae0847-1e56-4f0e-a31a-5f8ee1dfec13")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
