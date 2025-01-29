@@ -31,6 +31,18 @@
 		)
 		(uuid "42c038f8-f2ce-474b-b44a-26bca8e7a6ac")
 	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 131.064 23.622 0)
+		(effects
+			(font
+				(size 8.89 8.89)
+				(thickness 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "771830fc-f4ac-4ecf-93ff-a9b6186b0fcf")
+	)
 	(text "03407610395\n"
 		(exclude_from_sim no)
 		(at 210.312 177.546 0)
