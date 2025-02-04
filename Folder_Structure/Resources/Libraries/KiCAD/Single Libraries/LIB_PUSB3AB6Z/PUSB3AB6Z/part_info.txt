@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PUSB3AB6Z
+PartCategory=Diode ESD (Uni-directional)
+PackageCategory=Other
+PinCount=7
+Version=2.2
+Released=2019-11-11 22:46:23
+Downloaded=2025-02-03 07:28:50
+3D=Y

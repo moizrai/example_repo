@@ -1,0 +1,18 @@
+.ESDCAN24-2BLY :1 ;TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin
+SOT95P255X125-3N
+*STM D
+*NGS
+*PLB 1="I/O_1" 2="I/O_2" 3="I/O_3"
+*MXP 3
+*DFN ESDCAN24-2BLY
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (ESDCAN24-2BLY)
+~!Mouser Part Number (511-ESDCAN24-2BLY)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN24-2BLY?qs=gNDSiZmRJS9IbRDJThIoAw%3D%3D)
+~!Arrow Part Number (ESDCAN24-2BLY)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/esdcan24-2bly/stmicroelectronics?region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/esdcan24-2bly.pdf)
+~!Height (1.25mm)
+~!3D_Model (ESDCAN24-2BLY)
+ESDCAN24-2BLY
+1.1!U 2.1!U 3.1!U 

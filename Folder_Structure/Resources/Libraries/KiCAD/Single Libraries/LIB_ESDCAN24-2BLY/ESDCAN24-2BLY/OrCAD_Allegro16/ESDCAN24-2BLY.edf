@@ -1,0 +1,107 @@
+
+(EDIF
+  (rename &ESDCAN24_2BLY "ESDCAN24_2BLY")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 01 30 11 13 31)
+      (dataOrigin "221749/1588246/2.50/3/3/TVS Diode (Bi-directional)")
+      (program "SamacSys ECAD Model ESDCAN24_2BLY"
+        (version "5.1"))))
+  (library
+  (rename &ESDCAN24_2BLY "ESDCAN24_2BLY")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &ESDCAN24_2BLY "ESDCAN24_2BLY")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename PACKAGENAME "PackageName") (string "ESDCAN24_2BLY"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SOT95P255X125-3N"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "STMicroelectronics"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "ESDCAN24-2BLY"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "511-ESDCAN24-2BLY"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN24-2BLY?qs=gNDSiZmRJS9IbRDJThIoAw%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "ESDCAN24-2BLY"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/esdcan24-2bly/stmicroelectronics?region=nac"))
+          (property (rename &Description "Description") (string "TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.st.com/resource/en/datasheet/esdcan24-2bly.pdf"))
+          (property (rename &Height "Height") (string "1.25 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "ESDCAN24_2BLY"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &I_O_1 "I_O_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &I_O_2 "I_O_2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &I_O_3 "I_O_3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &I_O_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &I_O_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &I_O_3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -100) (pt 1000 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 800 0)
+                  (pt 800 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 30))))
+          )
+        )
+      )
+    )
+  )
+)

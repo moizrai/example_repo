@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDCAN24-2BLY
+D TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin
+K
+F https://www.st.com/resource/en/datasheet/esdcan24-2bly.pdf
+$ENDCMP
+#
+#End Doc Library

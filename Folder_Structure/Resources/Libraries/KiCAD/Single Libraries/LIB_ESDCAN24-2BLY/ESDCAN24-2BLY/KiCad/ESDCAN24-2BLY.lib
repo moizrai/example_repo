@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ESDCAN24-2BLY
+#/221749/1588246/2.50/3/3/TVS Diode (Bi-directional)
+DEF ESDCAN24-2BLY D 0 30 Y Y 1 F N
+F0 "D" 1050 300 50 H V L CNN
+F1 "ESDCAN24-2BLY" 1050 200 50 H V L CNN
+F2 "SOT95P255X125-3N" 1050 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/esdcan24-2bly.pdf" 1050 0 50 H I L CNN
+F4 "TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin" 1050 -100 50 H I L CNN "Description"
+F5 "1.25" 1050 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ESDCAN24-2BLY" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-ESDCAN24-2BLY" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN24-2BLY?qs=gNDSiZmRJS9IbRDJThIoAw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ESDCAN24-2BLY" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/esdcan24-2bly/stmicroelectronics?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X I/O_1 1 0 0 200 R 50 50 0 0 P
+X I/O_2 2 0 -100 200 R 50 50 0 0 P
+X I/O_3 3 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

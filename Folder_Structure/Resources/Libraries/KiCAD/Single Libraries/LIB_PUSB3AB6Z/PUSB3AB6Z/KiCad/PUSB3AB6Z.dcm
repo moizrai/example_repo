@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PUSB3AB6Z
+D Nexperia PUSB3AB6Z, Hex-Element ESD Protection Diode, 7-Pin DFN2111
+K
+F https://assets.nexperia.com/documents/data-sheet/PUSB3AB6.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_221749"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-06-23-00:00:00)
+    (utime 2023-08-25-06:25:09)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "ESDCAN24-2BLY")
+)
+
+
+(pinAssign "ECS_221749"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-06-23-00:00:00)
+    (utime 2023-08-25-06:25:09)
+    (interface
+        (port "1" (symbPinId 1) (portName "I/O_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "I/O_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "I/O_3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_221749")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ESDCAN24-2BLY")
+)
+
+
+(part "ESDCAN24-2BLY"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-06-23-00:00:00)
+    (utime 2023-08-25-06:25:09)
+    (packageRef "ESDCAN24-2BLY")
+    (pinAssignRef "ECS_221749")
+    (interface
+        (port "1" (symbPinId 1) (portName "I/O_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "I/O_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "I/O_3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "ESDCAN24-2BLY")
+    (property "Mouser_Part_Number" "511-ESDCAN24-2BLY")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN24-2BLY?qs=gNDSiZmRJS9IbRDJThIoAw%3D%3D")
+    (property "Arrow_Part_Number" "ESDCAN24-2BLY")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/esdcan24-2bly/stmicroelectronics?region=nac")
+    (property "Datasheet_Link" "https://www.st.com/resource/en/datasheet/esdcan24-2bly.pdf")
+    (property "compAreaTopHeight" 1.25)
+)
+
+

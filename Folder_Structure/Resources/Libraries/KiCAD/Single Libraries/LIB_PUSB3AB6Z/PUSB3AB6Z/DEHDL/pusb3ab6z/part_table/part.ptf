@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PUSB3AB6Z'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PUSB3AB6Z" (!) = "", "PUSB3AB6Z", "Other", "771-PUSB3AB6Z", "https://www.mouser.co.uk/ProductDetail/Nexperia/PUSB3AB6Z?qs=K2OaAKmNuLgoMk8bcuWLKw%3D%3D", "PUSB3AB6Z", "https://www.arrow.com/en/products/pusb3ab6z/nexperia?region=nac", "Nexperia PUSB3AB6Z, Hex-Element ESD Protection Diode, 7-Pin DFN2111", "https://assets.nexperia.com/documents/data-sheet/PUSB3AB6.pdf", "0.5 mm"
+END_PART
+
+END.
